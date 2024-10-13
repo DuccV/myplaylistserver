@@ -80,10 +80,6 @@ playlistRouter.get('/findbyid', (req, res) => {
 
 playlistRouter.post('/addsongs', upload.fields([
     {
-        name: "Image",
-        maxCount: 1
-    },
-    {
         name: "Songs",
         maxCount: 50
     }
